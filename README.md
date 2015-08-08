@@ -4,34 +4,9 @@ Exploratory Data Analysis Plotting Exercise
 
 ## Introduction
 
-This is a solution to Project1 of Coursera Course on Exloratory Data Analysis.
+This is a solution to Project1 of Coursera Course on Exloratory Data Analysis.The implentation is based on the descriptions in: [https://github.com/rdpeng/ExData_Plotting1](https://github.com/rdpeng/ExData_Plotting1)
 
-The data used is "Individual household electric power consumption Data Set" (<a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a>) from <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine Learning Repository</a> 
-
-The implentation is based on the descriptions in the following GitHub repository:
-[https://github.com/rdpeng/ExData_Plotting1](https://github.com/rdpeng/ExData_Plotting1)
-
-The following descriptions of the 9 variables in the dataset are taken from that repository (and thus from
-the <a href="https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption">UCI
-web site</a>):
-
-<ol>
-<li><b>Date</b>: Date in format dd/mm/yyyy </li>
-<li><b>Time</b>: time in format hh:mm:ss </li>
-<li><b>Global_active_power</b>: household global minute-averaged active power (in kilowatt) </li>
-<li><b>Global_reactive_power</b>: household global minute-averaged reactive power (in kilowatt) </li>
-<li><b>Voltage</b>: minute-averaged voltage (in volt) </li>
-<li><b>Global_intensity</b>: household global minute-averaged current intensity (in ampere) </li>
-<li><b>Sub_metering_1</b>: energy sub-metering No. 1 (in watt-hour of active energy). It corresponds to the kitchen, containing mainly a dishwasher, an oven and a microwave (hot plates are not electric but gas powered). </li>
-<li><b>Sub_metering_2</b>: energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light. </li>
-<li><b>Sub_metering_3</b>: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.</li>
-</ol>
-
-## Loading the data
-
-The implementation requires the user to store the dataset into the same directory as the R code when downloaded from this repository. 
-
-* Only data from the dates 2007-02-01 and 2007-02-02 are read the data from file.
+The data used is "Individual household electric power consumption Data Set" (<a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a>) from <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine Learning Repository</a>. The implementation requires the user to store the dataset into the same directory as the R code when downloaded from this repository. Only data from the dates 2007-02-01 and 2007-02-02 is read the data from file.
 
 ## Plots
 
