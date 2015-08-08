@@ -8,6 +8,7 @@ power_consumption$Date <- as.Date(power_consumption$Date, "%d/%m/%y")
 png(filename = "plot1.png", 
     width = 480, height = 480, units = "px", 
     bg = "white")
+par(mfrow = c(1,1))
 hist(power_consumption$Global_active_power, 
      main = "Global Active Power", 
      xlab = "Global Active Power (kilowatts)",
