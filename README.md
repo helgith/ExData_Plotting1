@@ -4,9 +4,11 @@ Exploratory Data Analysis Plotting Exercise
 
 ## Introduction
 
-This is a solution to Project1 of Coursera Course on Exloratory Data Analysis.The implentation is based on the descriptions in: [https://github.com/rdpeng/ExData_Plotting1](https://github.com/rdpeng/ExData_Plotting1)
+This is a solution to Project1 of Coursera Course on Exploratory Data Analysis.The implementation is based on the descriptions in: [https://github.com/rdpeng/ExData_Plotting1](https://github.com/rdpeng/ExData_Plotting1)
 
 The data used is "Individual household electric power consumption Data Set" (<a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a>) from <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine Learning Repository</a>. The implementation requires the user to store the dataset into the same directory as the R code when downloaded from this repository. Only data from the dates 2007-02-01 and 2007-02-02 is read the data from file.
+
+The implementation is based on the use of time series throught the zoo package. This handles the labels of the x-axis based on weekday automatically (but with German shortcuts since executed in German).
 
 ## Plots
 
